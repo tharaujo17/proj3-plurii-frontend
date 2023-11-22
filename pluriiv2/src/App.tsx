@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

@@ -10,6 +10,7 @@ import {
   Title,
 } from './styled';
 import SubTitleImage from '../../../assets/subtitleDecoration.svg';
+import Section2 from './Section2';
 
 const Section: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const Section: React.FC = () => {
       <SubTitle>
         Laboratório <br /> garagem
       </SubTitle>
-        <SubTitleDecoration src={SubTitleImage} />
+      <SubTitleDecoration src={SubTitleImage} />
       <Description>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
         luctus nec ullamcorper mattis, pulvinar dapibus leo. <br />
@@ -27,6 +28,7 @@ const Section: React.FC = () => {
         <AboutUsBtn href="#">Sobre nós</AboutUsBtn>
         <ReserveBtn href="#">Reserve</ReserveBtn>
       </Actions>
+      <Section2 />
     </Container>
   );
 };

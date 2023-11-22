@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+// Elementos da Section.tsx
 export const Container = styled.div`
   display: flex;
   margin-top: 72px;
@@ -29,6 +30,7 @@ export const SubTitle = styled.div`
     900 60px Poppins,
     sans-serif;
 `;
+
 export const Description = styled.div`
   color: #000;
   align-self: stretch;
@@ -93,3 +95,54 @@ export const SubTitleDecoration = styled.img`
   max-width: 100%;
 `;
 
+// Section 2
+export const Section2Title = styled.div`
+  color: #000;
+  letter-spacing: 4.2px;
+  text-transform: uppercase;
+  margin-right: -20px;
+  margin-top: 117px;
+  font:
+    900 60px/90px Poppins,
+    sans-serif;
+`;
+
+export const Section2Description = styled.div`
+  color: #000;
+  width: 450px;
+  height: auto;
+  margin: 46px -20px 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+`;
+
+export const CardImage = styled.img`
+  aspect-ratio: 0.95;
+  object-fit: contain;
+  object-position: center;
+  width: 360px;
+  height: auto;
+  overflow: hidden;
+`;
+
+export const CardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 10px;
+  gap: 5px;
+  box-sizing: border-box;
+`;
+
+export const CardTitle = styled.h2`
+  font-size: 1.5em;
+  color: #000;
+`;
+
+export const CardDetails = styled.div` 
+  // Detalhes do cartão
+`;
