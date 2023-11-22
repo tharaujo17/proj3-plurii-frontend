@@ -1,13 +1,9 @@
 import React from 'react';
-import { Section } from '../Home/Components/Section'
+import Section from './Components/Section';
 // import { Container } from './styles';
 
 const Home: React.FC = () => {
-  return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  );
-}
+  return <Section />;
+};
 
 export default Home;

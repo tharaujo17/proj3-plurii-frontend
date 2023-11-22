@@ -44,7 +44,7 @@ export const HomeLink = styled.a`
   transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: #fff;
+    color: #bff600;
   }
 `;
 
