@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Section } from '../Home/Components/Section'
 // import { Container } from './styles';
 
 const Home: React.FC = () => {
