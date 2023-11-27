@@ -3,6 +3,7 @@ import { theme } from './theme/global';
 import { createGlobalStyle } from 'styled-components';
 import Header from './Shared/Components/Header/Header';
 import Home from './pages/Home/Home';
+import Footer from './Shared/Components/Footer/Footer';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -19,6 +20,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Home />
+      <Footer />
     </ThemeProvider>
   );
 }

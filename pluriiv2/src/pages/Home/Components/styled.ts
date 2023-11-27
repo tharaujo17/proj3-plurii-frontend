@@ -131,11 +131,14 @@ export const CardContainer = styled.div`
   justify-content: center;
   font-family: 'Poppins', sans-serif;
   color: #000;
+  background-color: #fff; // Adiciona cor de fundo branca
   border: 1px solid #ddd;
   padding: 20px;
-  margin-bottom: 10px;
-  gap: 5px;
+  margin-bottom: 20px; // Aumenta a margem inferior
+  gap: 10px; // Aumenta o espaço entre os detalhes
   box-sizing: border-box;
+  border-radius: 10px; // Arredonda os cantos
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); // Adiciona sombra
 `;
 
 export const CardTitle = styled.h2`
@@ -144,5 +147,37 @@ export const CardTitle = styled.h2`
 `;
 
 export const CardDetails = styled.div` 
-  // Detalhes do cartão
+  margin-left: 20px; // Adiciona espaço à esquerda para alinhar com o título
+`;
+
+export const HomeContainer = styled.div`
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 150px; 
+`;
+
+export const ContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+`;
+
+export const DetailButton = styled.a`
+  background-color: #BFF600;
+  color: #ffffff; // Cor do texto
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px; // Ajuste o padding para corresponder ao design
+  border-radius: 30px; // Aumente o border-radius para um efeito mais arredondado
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); // Ajuste a sombra conforme necessário
+  display: inline-block; // Permite a definição de margem e padding
+  cursor: pointer;
+  border: none; // Remova a borda
+  transition: all 0.3s ease; // Suaviza a transição de estados
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Aumenta a sombra ao passar o mouse
+  }
 `;
