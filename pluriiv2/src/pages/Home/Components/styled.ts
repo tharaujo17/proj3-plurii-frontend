@@ -101,7 +101,6 @@ export const Section2Title = styled.div`
   letter-spacing: 4.2px;
   text-transform: uppercase;
   margin-right: -20px;
-  margin-top: 117px;
   font:
     900 60px/90px Poppins,
     sans-serif;
