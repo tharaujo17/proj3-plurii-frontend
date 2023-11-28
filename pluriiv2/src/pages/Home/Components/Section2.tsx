@@ -1,18 +1,19 @@
 import React from 'react';
-import { CardContainer, CardDetails, CardImage, CardTitle, Section2Description, Section2Title, HomeContainer, ContentContainer, DetailButton } from './styled';
+import { CardContainer, CardDetails, CardImage, CardTitle, Section2Description, Section2Title, HomeContainer, ContentContainer, DetailButton, SubTitleDecorationSection2 } from './styled';
 import ImageG1 from '../../../assets/image1.svg';
 import ImageG2 from '../../../assets/image2.svg';
+import SubTitleImage from '../../../assets/subtitleDecoration.svg';
 
 const Section2: React.FC = () => {
   return (
     <HomeContainer>
     <ContentContainer>
       <Section2Title>ESPAÇOS</Section2Title>
+      <SubTitleDecorationSection2 src={SubTitleImage}/>
       <Section2Description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo. <br /> Sed ut
-        perspiciatis unde omnis iste natus error sit voluptatem accusantium
-        doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.
+      Embarque em uma jornada de inovação e descoberta ao explorar nossos espaços exclusivos disponíveis para agendamento. 
+      <br /> <br /> Cada ambiente é cuidadosamente projetado para inspirar a criatividade, 
+      proporcionando uma atmosfera dinâmica e equipada para elevar seus projetos a novos patamares.
       </Section2Description>
       </ContentContainer>
 

@@ -17,12 +17,12 @@ const Section: React.FC = () => {
     <Container>
       <Title>Bem vindo ao Plurii</Title>
       <SubTitle>
-        Laboratório <br /> garagem
+        Laboratório <br /> Garagem
       </SubTitle>
       <SubTitleDecoration src={SubTitleImage} />
       <Description>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-        luctus nec ullamcorper mattis, pulvinar dapibus leo. <br />
+      Nosso laboratório maker é o catalisador perfeito para explorar sua criatividade e materializar inovações. 
+      <br /> Junte-se a nós para uma jornada única de colaboração e descoberta! <br />
       </Description>
       <Actions>
         <AboutUsBtn href="#">Sobre nós</AboutUsBtn>

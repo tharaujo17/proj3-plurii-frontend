@@ -181,3 +181,15 @@ export const DetailButton = styled.a`
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Aumenta a sombra ao passar o mouse
   }
 `;
+
+export const SubTitleDecorationSection2 = styled.img`
+    aspect-ratio: 14.36;
+    object-fit: contain;
+    object-position: center;
+    width: 359px;
+    stroke-width: 8px;
+    stroke: #bff600;
+    overflow: hidden;
+    margin-top: -20px;
+    max-width: 100%;
+`

@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <LogoSection>
-        <FooterText>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </FooterText>
+        <FooterText>A solução é concebida e desenvolvida por estudantes da Cesar School com o propósito de aplicá-la de forma pioneira em sua própria instituição. </FooterText>
         <FooterText>Allright reserved - PLURII</FooterText>
       </LogoSection>
       <NavSection>
