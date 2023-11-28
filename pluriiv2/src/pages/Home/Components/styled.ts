@@ -105,11 +105,13 @@ export const Section2Title = styled.div`
   font:
     900 60px/90px Poppins,
     sans-serif;
+    z-index: 1000;
+    margin-right: 90px;
 `;
 
 export const Section2Description = styled.div`
   color: #000;
-  width: 450px;
+  width: auto;
   height: auto;
   margin: 46px -20px 0 0;
   font-family: 'Poppins', sans-serif;
@@ -190,6 +192,6 @@ export const SubTitleDecorationSection2 = styled.img`
     stroke-width: 8px;
     stroke: #bff600;
     overflow: hidden;
-    margin-top: -20px;
+    margin-top: -25px;
     max-width: 100%;
 `
