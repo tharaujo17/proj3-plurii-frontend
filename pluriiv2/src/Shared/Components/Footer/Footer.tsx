@@ -9,21 +9,25 @@ import {
   FooterText,
   NavItem,
   SocialIcons,
-  SectionTitle
+  SectionTitle,
+  LogoWithGaragino
 } from './styled';
+
+import LogoPluriiGaragino from '../../../assets/logo-with-garagino.svg'
 
 const Footer: React.FC = () => {
   return (
     <FooterContainer>
       <LogoSection>
+        <LogoWithGaragino src={LogoPluriiGaragino}/>
         <FooterText>A solução é concebida e desenvolvida por estudantes da Cesar School com o propósito de aplicá-la de forma pioneira em sua própria instituição. </FooterText>
         <FooterText>Allright reserved - PLURII</FooterText>
       </LogoSection>
       <NavSection>
         <SectionTitle>HOME</SectionTitle>
-        <NavItem>Salas</NavItem>
-        <NavItem>Reservas</NavItem>
-        <NavItem>Laboratório Garagem</NavItem>
+        <NavItem href='#'>Salas</NavItem>
+        <NavItem href='#'>Reservas</NavItem>
+        <NavItem href='#'>Laboratório Garagem</NavItem>
       </NavSection>
       <ContactSection>
         <SectionTitle>CONTATE-NOS</SectionTitle>
@@ -32,7 +36,7 @@ const Footer: React.FC = () => {
       </ContactSection>
       <DoubtsSection>
         <SectionTitle>DÚVIDAS</SectionTitle>
-        <FooterText>Perguntas ou feedback? Adoraríamos ouvir você</FooterText>
+        <FooterText>Perguntas ou feedbacks? <br /> Adoraríamos ouvir você</FooterText>
         <SocialIcons>
         </SocialIcons>
       </DoubtsSection>

@@ -15,6 +15,7 @@ export const LogoSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  width: 377px;
 `;
 
 export const NavSection = styled.nav`
@@ -44,7 +45,10 @@ export const NavItem = styled.a`
   text-decoration: none;
   margin: 5px 0;
   font-size: 1em; 
-  display: block; 
+  display: block;
+  &:hover {
+    color: #bff600;
+  }
 `;
 
 export const SocialIcons = styled.div`
@@ -64,3 +68,10 @@ export const SectionTitle = styled.h2`
   margin-bottom: 10px;
   color: #ffffff;
 `;
+
+export const LogoWithGaragino = styled.img`
+  width: 217.081px;
+  height: 66.312px;
+  flex-shrink: 0;
+  padding-bottom: 5px;
+`
