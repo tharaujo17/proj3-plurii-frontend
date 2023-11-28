@@ -167,7 +167,7 @@ export const ContentContainer = styled.div`
 
 export const DetailButton = styled.a`
   background-color: #BFF600;
-  color: #ffffff; // Cor do texto
+  color: #000; // Cor do texto
   text-align: center;
   text-decoration: none;
   font-weight: bold;
