@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     <Container>
       <Menu>
         <HomeLink href="#">Home</HomeLink>
-        <AboutLink href="#">Sobre</AboutLink>
+        <AboutLink href="#">Login</AboutLink>
         <ContactLink href="#">Contato</ContactLink>
       </Menu>
       <Logo src={LogoHeader} />
