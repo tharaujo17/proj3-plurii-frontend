@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardContainer, CardDetails, CardImage, CardTitle, Section2Description, Section2Title, HomeContainer, ContentContainer, DetailButton, SubTitleDecorationSection2 } from './styled';
+import { CardContainer, CardDetails, CardImage, CardTitle, Section2Description, Section2Title, HomeContainer, ContentContainer, DetailButton, SubTitleDecorationSection2 } from '../Components/Home';
 import ImageG1 from '../../../assets/image1.svg';
 import ImageG2 from '../../../assets/image2.svg';
 import SubTitleImage from '../../../assets/subtitleDecoration.svg';

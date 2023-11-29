@@ -8,7 +8,7 @@ import {
   SubTitle,
   SubTitleDecoration,
   Title,
-} from './styled';
+} from '../Components/Home';
 import SubTitleImage from '../../../assets/subtitleDecoration.svg';
 import Section2 from './Section2';
 
