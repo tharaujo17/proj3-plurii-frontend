@@ -3,7 +3,10 @@ import { theme } from './theme/global';
 import { createGlobalStyle } from 'styled-components';
 import Header from './Shared/Components/Header/Header';
 import Home from './pages/Home/Home';
-import Footer from './Shared/Components/Footer/Footer';
+// import Footer from './Shared/Components/Footer/Footer';
+
+import Approval from './pages/Approval/Approval';
+import HeaderUserLogged from './Shared/Components/HeaderUserLogged/HeaderUserLogged';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -18,9 +21,12 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      
+      <HeaderUserLogged /> 
+      <Approval />
       <Header />
       <Home />
-      <Footer />
+
     </ThemeProvider>
   );
 }
