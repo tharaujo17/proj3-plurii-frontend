@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.header`
+  height: 7.688em;
   align-items: flex-end;
   justify-content: flex-end;
   box-shadow: 0px 4px 4px 0px rgba(235, 235, 235, 0.6);

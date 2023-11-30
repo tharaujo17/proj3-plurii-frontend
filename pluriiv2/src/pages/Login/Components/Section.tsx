@@ -6,6 +6,7 @@ import Plurii from '../../../assets/logo-header.svg';
 import { Footer } from '../../../Shared/Components/Footer/Footer';
 import { Header } from '../../../Shared/Components/Header/Header';
 
+
 import {
   Container,
   MainContainer,
