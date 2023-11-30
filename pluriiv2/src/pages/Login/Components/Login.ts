@@ -26,17 +26,6 @@ export const MainContainer = styled.div`
   background-image: url(${backgroundImage});
   background-size: cover;
   background-position: center;
-  padding: 1px; // Adicione padding conforme necessário
-`;
-
-// para insercao imagem back
-export const CardImage = styled.img`
-  aspect-ratio: 0.95;
-  object-fit: contain;
-  object-position: center;
-  width: 800px;
-  height: auto;
-  overflow: hidden;
 `;
 
 // para insercao imagem do logo
@@ -95,27 +84,20 @@ export const CardTitle = styled.h2`
   margin-bottom: 0.5px
 `;
 
-export const CardSubTitle = styled.h4`
-  color: #000;
-  font-size: 1.0em;
-`;
-
 export const CardDetails = styled.label` 
-  margin-left: 20px; // Adiciona espaço à esquerda para alinhar com o título
+  margin-left: 10px; // Adiciona espaço à esquerda para alinhar com o título
 `;
 
 export const DetailButton = styled.a`
-  background-color: #000;
-  color: #fff; // Cor do texto
+  background-color: #bff600;
+  color: #000; // Cor do texto
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   padding: 12px 24px; // Ajuste o padding para corresponder ao design
   border-radius: 10px; // Aumente o border-radius para um efeito mais arredondado
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); // Ajuste a sombra conforme necessário
   display: inline-block; // Permite a definição de margem e padding
   cursor: pointer;
-  border: none; // Remova a borda
   transition: all 0.3s ease; // Suaviza a transição de estados
 
   &:hover {
@@ -125,7 +107,6 @@ export const DetailButton = styled.a`
 
 export const BoxDetail = styled.input`
   color: #000;
-  text-align: center;
   letter-spacing: 1.0px;
   border-radius: 19px;
   border: 1px solid #000;
