@@ -17,6 +17,19 @@ export const Container = styled.div`
   }
 `;
 
+export const ContainerSection2 = styled.div`
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px 80px;
+
+  @media (max-width: 991px) {
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-grow: 1;
@@ -65,6 +78,7 @@ export const Image = styled.img`
 export const TitleH2 = styled.div`
   color: var(--Heading-Color, #1b1717);
   letter-spacing: 3.15px;
+  margin-top: 45px;
   text-transform: uppercase;
   width: 100%;
   font: 900 45px Poppins, sans-serif;
@@ -95,15 +109,33 @@ export const Column = styled.div`
   line-height: normal;
   width: 17%;
   margin-left: 0px;
+  margin-left: 2.25em;
 
   @media (max-width: 991px) {
     width: 100%;
   }
 `;
 
-export const ReservationCard = styled.div`
+export const Column2 = styled.div`
   display: flex;
   flex-direction: column;
+  line-height: normal;
+  margin-left: 6.25em;
+  margin-top: 6.25em;
+
+  @media (max-width: 991px) {
+    width: 100%;
+  }
+`;
+
+export const Arrow = styled.div`
+    align-self: start;
+    margin-left: 12.5em;
+`;
+
+export const ReservationCard = styled.div`
+  display: flex;
+  flex-direction: row;
   align-items: center;
 
   @media (max-width: 991px) {
@@ -132,7 +164,8 @@ export const ImageLabroom = styled.img`
 export const ReservationDetails = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: start;
+  font: 400 18px Montserrat, sans-serif;
 
   @media (max-width: 991px) {
     max-width: 100%;
@@ -143,7 +176,7 @@ export const ReservationDetails = styled.div`
 export const Image2 = styled.img`
   aspect-ratio: 1.57;
   object-fit: contain;
-  object-position: center;
+  
   width: 36px;
   overflow: hidden;
   max-width: 100%;
@@ -166,30 +199,150 @@ export const Options = styled.div`
   }
 `;
 
-export const Option1 = styled.div`
+
+export const ConfirmationBox = styled.div`
   border-radius: 10px;
   background-color: #bff600;
   display: flex;
-  width: 214px;
-  height: 58px;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 20px 14px 31px;
+
+  @media (max-width: 991px) {
+    padding-left: 20px;
+  }
 `;
 
-export const Option2 = styled.div`
+export const ConfirmationText = styled.div`
+  color: #000;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: auto 0;
+  font: 600 15px Poppins, sans-serif;
+`;
+
+export const ConfirmationImage = styled.img`
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: stretch;
+  max-width: 100%;
+`;
+
+export const EmailBox = styled.div`
   border-radius: 10px;
   background-color: #000;
   display: flex;
-  width: 230px;
-  height: 58px;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 17px 19px;
 `;
 
-export const Option3 = styled.div`
+export const EmailText = styled.div`
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: auto 0;
+  font: 600 15px Poppins, sans-serif;
+`;
+
+export const EmailImage = styled.img`
+  aspect-ratio: 1.4;
+  object-fit: contain;
+  object-position: center;
+  width: 35px;
+  overflow: hidden;
+  align-self: stretch;
+  max-width: 100%;
+`;
+
+export const RejectBox = styled.div`
   border-radius: 10px;
   border: 1px solid #000;
   background-color: #fff;
   display: flex;
-  width: 214px;
-  height: 58px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 23px 14px 43px;
+
+  @media (max-width: 991px) {
+    padding: 0 20px;
+  }
+`;
+
+export const RejectText = styled.div`
+  color: #000;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: auto 0;
+  font: 600 15px Poppins, sans-serif;
+`;
+
+export const RejectImage = styled.img`
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 30px;
+  overflow: hidden;
+  align-self: stretch;
+  max-width: 100%;
+`;
+
+export const ContainerResevationClosed = styled.div`
+  display: flex;
   flex-direction: column;
+`;
+
+export const CardResevationClosed = styled.div`
+  border-radius: 20px;
+  background-color: #eee;
+  margin-top: 2.125em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  padding: 18px 80px 18px 63px;
+
+  @media (max-width: 991px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+`;
+
+export const ContainerResevationApproved = styled.div`
+  display: flex;
+  flex-direction: column;
+ 
+`;
+
+export const ContainerResevationRow = styled.div`
+  display: flex;
+  flex-direction: column;
+  
+`;
+
+
+
+export const CardResevationApproved = styled.div`
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  margin-top: 2.125em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 18px 80px 18px 63px;
+
+  @media (max-width: 991px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
 `;

@@ -11,7 +11,7 @@ import {
 
 import SupervisorPic from '../../../assets/approval-supervisor-pic.png';
 
-import ApprovalSection2 from './ApprovalSetcion2';
+import ApprovalSection2 from './ApprovalSection2';
 
 // import { Container } from './styles';
 
