@@ -6,8 +6,8 @@ import { createGlobalStyle } from 'styled-components';
 // import Footer from './Shared/Components/Footer/Footer';
 // import HeaderUserLogged from './Shared/Components/HeaderUserLogged/HeaderUserLogged';
 // import Approval from './pages/Approval/Approval';
-import Login from './pages/Login/Login';
-
+// import Login from './pages/Login/Login';
+import Register from './pages/Register/Register';
 
 //import Login from './pages/Login/Login';
 
@@ -24,7 +24,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Login />
+      <Register />
       {/* <HeaderUserLogged />
       <Approval />
       <Footer />  */}
