@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 import{ 
     Container,
@@ -18,7 +18,7 @@ import MenuSanduba from '../../../assets/header-menu-sandwich.svg';
 import ProfilePic from '../../../assets/profile_pic.png';
 
 const HeaderUserLogged: React.FC = () => {
-    const [userData, setUserData] = useState<any>(null);
+    /*const [userData, setUserData] = useState<any>(null);
 
     useEffect(() => {
       // Função para obter dados do usuário
@@ -56,6 +56,8 @@ const HeaderUserLogged: React.FC = () => {
   
       fetchUserData();
     }, []);
+    */
+
     return (
         <Container>
               <Wrapper>
@@ -66,7 +68,7 @@ const HeaderUserLogged: React.FC = () => {
                 <UserInfoWrapper>
                     <UserImage src= {ProfilePic}/>
                 <UserInfoDetails>
-            <UserName>{userData.username}</UserName>
+            <UserName>Clara Sousa</UserName>
             <UserRA>RA: 2023010895</UserRA>
         </UserInfoDetails>
       </UserInfoWrapper>
