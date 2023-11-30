@@ -7,9 +7,9 @@ import { createGlobalStyle } from 'styled-components';
 // import HeaderUserLogged from './Shared/Components/HeaderUserLogged/HeaderUserLogged';
 // import Approval from './pages/Approval/Approval';
 // import Login from './pages/Login/Login';
-import Register from './pages/Register/Register';
-
+//import Register from './pages/Register/Register';
 //import Login from './pages/Login/Login';
+import Scheduling from './pages/Scheduling/Scheduling';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -24,8 +24,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Register />
-      {/* <HeaderUserLogged />
+      <Scheduling />
+      {/* <Header />
+      {/* <Register />
+      <HeaderUserLogged />
       <Approval />
       <Footer />  */}
 

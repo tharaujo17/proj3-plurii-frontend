@@ -32,10 +32,12 @@ const Section: React.FC = () => {
             <CardContainer>
               <CardTitle>Seja bem-vindo ao Garagem!</CardTitle>
               <CardDetails>E-mail</CardDetails>
-              <BoxDetail type="text" placeholder='email@email.com'/>
+              <BoxDetail type="text" placeholder='email@exemplo.com'/>
               <CardDetails>Senha</CardDetails>
               <BoxDetail type="password" placeholder='Senha'/>
               <DetailButton href="#">Avançar</DetailButton>
+              <DetailButton href="#">Esqueci minha senha</DetailButton>
+              <DetailButton href="#">Não tenho conta? Registre-se</DetailButton>
             </CardContainer>
           </LoginContainer>
           <Footer />

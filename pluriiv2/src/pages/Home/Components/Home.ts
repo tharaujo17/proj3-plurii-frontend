@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 export const Title = styled.div`
   color: #000;
-  letter-spacing: 1.1900000000000002px;
+  letter-spacing: 1.192px;
   text-transform: uppercase;
   font:
     900 17px/25.5px Poppins,
