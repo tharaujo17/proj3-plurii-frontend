@@ -1,9 +1,10 @@
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme/global';
 import { createGlobalStyle } from 'styled-components';
-import Header from './Shared/Components/Header/Header';
-import Home from './pages/Home/Home';
-import Footer from './Shared/Components/Footer/Footer';
+// import Header from './Shared/Components/Header/Header';
+// import Home from './pages/Home/Home';
+// import Footer from './Shared/Components/Footer/Footer';
+import Login from './pages/Login/Login';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -18,9 +19,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Header />
+      {/* <Header />
       <Home />
-      <Footer />
+      <Footer /> */}
+      <Login/>
     </ThemeProvider>
   );
 }
