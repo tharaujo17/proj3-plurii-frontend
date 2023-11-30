@@ -1,11 +1,8 @@
 import React from 'react';
 import ImageLogo from '../../../assets/logo.svg';
-import MenuIcon from '../../../assets/Menu_icon.svg';
-import Plurii from '../../../assets/logo-header.svg';
 
-import { Footer } from '../../../Shared/Components/Footer/Footer';
-import { Header } from '../../../Shared/Components/Header/Header';
-
+import Header from '../../../Shared/Components/Header/Header';
+import Footer from '../../../Shared/Components/Footer/Footer';
 
 import {
   Container,
@@ -14,44 +11,37 @@ import {
   CardContainer, 
   CardContainerLogo,
   CardDetails, 
-  CardTitle, 
-  CardSubTitle,
+  CardTitle,
   LoginContainer, 
   DetailButton,
   BoxDetail,
-  HeaderContainer,
+  ContainerMaster,
 } from '../Components/Login';
 
 const Section: React.FC = () => {
   return (
-    <Container>
-      <HeaderContainer>
-        <Header />
-      </HeaderContainer>
+    <ContainerMaster>
+      <Header />
+      <Container>
+        <MainContainer>
+          <LoginContainer>
+            <CardContainerLogo>
+              <CardLogo src={ImageLogo} />
+            </CardContainerLogo>
 
-      <MainContainer>
-        <LoginContainer>
-          <CardContainerLogo>
-            <CardLogo src={ImageLogo} />
-          </CardContainerLogo>
-
-          <CardContainer>
-            <CardTitle>Entrar como Aluno</CardTitle>
-            <CardSubTitle>Seja bem-vindo ao Garagem</CardSubTitle>
-            <CardDetails>E-mail</CardDetails>
-            <BoxDetail> </BoxDetail>
-            <CardDetails>Senha</CardDetails>
-            <BoxDetail></BoxDetail>
-            <DetailButton href="#">Avançar</DetailButton>
-          </CardContainer>
-
-        </LoginContainer>
-        <Footer />
-
-      </MainContainer>
-
-
-   </Container>
+            <CardContainer>
+              <CardTitle>Seja bem-vindo ao Garagem!</CardTitle>
+              <CardDetails>E-mail</CardDetails>
+              <BoxDetail type="text" />
+              <CardDetails>Senha</CardDetails>
+              <BoxDetail type="password" />
+              <DetailButton href="#">Avançar</DetailButton>
+            </CardContainer>
+          </LoginContainer>
+          <Footer />
+        </MainContainer>
+      </Container>
+    </ContainerMaster>
   );
 };
 

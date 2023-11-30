@@ -3,9 +3,10 @@ import { theme } from './theme/global';
 import { createGlobalStyle } from 'styled-components';
 //import Header from './Shared/Components/Header/Header';
 //import Home from './pages/Home/Home';
-import Footer from './Shared/Components/Footer/Footer';
-import HeaderUserLogged from './Shared/Components/HeaderUserLogged/HeaderUserLogged';
-import Approval from './pages/Approval/Approval';
+// import Footer from './Shared/Components/Footer/Footer';
+// import HeaderUserLogged from './Shared/Components/HeaderUserLogged/HeaderUserLogged';
+// import Approval from './pages/Approval/Approval';
+import Login from './pages/Login/Login';
 
 
 //import Login from './pages/Login/Login';
@@ -23,9 +24,10 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <HeaderUserLogged />
+      <Login />
+      {/* <HeaderUserLogged />
       <Approval />
-      <Footer /> 
+      <Footer />  */}
 
     </ThemeProvider>
   );

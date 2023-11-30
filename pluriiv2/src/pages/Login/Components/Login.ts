@@ -3,88 +3,12 @@ import backgroundImage from '../../../assets/background.svg';
 
 
 // elementos da Header
-export const HeaderContainer = styled.div`
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;  
-  width: 100%;
-  padding: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
-`;
-
-export const HeaderColumn = styled.div`
-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex-grow: 1;
-`;
-
-export const FirstHeaderColumn = styled(HeaderColumn)`
-  width: 60%;
-  margin-right: auto;
-  align-items: flex-start;
-  justify-content: center
-`;
-
-export const SecondHeaderColumn = styled(HeaderColumn)`
-  width: 5%;
-  margin-right: auto;
-  background-color: #BFF600;
-  justify-content: center
-`;
-
-export const ThirdHeaderColumn = styled(HeaderColumn)`
-  width: 5%;
-  align-items: flex-end;
-  justify-content: center
-`;
-
-export const FourthHeaderColumn = styled(HeaderColumn)`
-  width: 8%;
-  align-items: flex-end;
-  justify-content: center
-`;
-
-export const FifthHeaderColumn = styled(HeaderColumn)`
-  width: 20%;
-  align-items: flex-end;
-`;
-
-export const HeaderImage = styled.img`
-  width: 20px;  
-  height: auto;
-`;
-
-export const HeaderPlurii = styled.img`
-  width: 150px;  
-  height: auto;
-`;
-
-export const HeaderText = styled.h4`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-`;
-
-export const HeaderWord = styled.span`
-  font-size: 1.2em;
-  color: #000;
-  margin-bottom: 5px;  
-`;
-
+export const ContainerMaster = styled.div``;
 
 // Elementos da Section.tsx
 export const Container = styled.div`
   display: flex;
-  margin-top: 72px;
-  flex-grow: 1;
-  flex-basis: 0%;
   flex-direction: column;
-  align-items: start;
-  padding: 0 20px;
 `;
 
 export const LoginContainer = styled.div`
@@ -131,7 +55,7 @@ export const ContentContainer = styled.div`
   gap: 10px;
 `;
 
-export const CardContainer = styled.div`
+export const CardContainer = styled.form`
   display: flex;
   width: 30%;
   flex-direction: column;
@@ -171,12 +95,12 @@ export const CardTitle = styled.h2`
   margin-bottom: 0.5px
 `;
 
-export const CardSubTitle = styled.div`
+export const CardSubTitle = styled.h4`
   color: #000;
   font-size: 1.0em;
 `;
 
-export const CardDetails = styled.div` 
+export const CardDetails = styled.label` 
   margin-left: 20px; // Adiciona espaço à esquerda para alinhar com o título
 `;
 
@@ -199,7 +123,7 @@ export const DetailButton = styled.a`
   }
 `;
 
-export const BoxDetail = styled.a`
+export const BoxDetail = styled.input`
   color: #000;
   text-align: center;
   letter-spacing: 1.0px;
@@ -214,4 +138,3 @@ export const BoxDetail = styled.a`
     600 15px Poppins,
     sans-serif;
 `;
-
