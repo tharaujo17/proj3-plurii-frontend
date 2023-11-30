@@ -68,7 +68,7 @@ const HeaderUserLogged: React.FC = () => {
                 <UserInfoWrapper>
                     <UserImage src= {ProfilePic}/>
                 <UserInfoDetails>
-            <UserName>Clara Sousa</UserName>
+            <UserName>Marcelo Alves</UserName>
             <UserRA>RA: 2023010895</UserRA>
         </UserInfoDetails>
       </UserInfoWrapper>
